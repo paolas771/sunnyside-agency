@@ -1,0 +1,532 @@
+body, html{
+    margin: 0;
+    width: 375px;
+    font-family: 'Fraunces', serif;
+}
+p, a{
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.topSection{
+    width: 375px;
+    height: 529px;
+    background: url("./images/mobile/image-header.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navBar{
+    width: 375px;
+    height: 441px;
+    padding-top: 32px;
+    position: relative;
+}
+.logo{
+    padding-left: 24px;
+}
+.links{
+    position: relative;
+    display: none;
+    width: 329px;
+    height: 316px;
+    background: #fffcf8;
+    z-index: 1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    border: 4px solid #ffffff;
+}
+.flexContain{
+    padding-top: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.links:after, .links:before{
+    bottom: 100%;
+    left: 101.2%;
+    border-bottom: 100px solid white;
+    border-left: 100px solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;;
+}
+.links:after{
+    border-color: rbga(0, 0, 0, 0);
+    border-bottom-color: white;
+    border-width: 20px;
+    margin-left: -20px;
+}
+.links:before{
+    border-color: rgba(44, 245, 91, 0);
+    border-bottom-color: white;
+    border-width: 26px;
+    margin-left: -26px;
+}
+.headerLinks{
+    color: #808397;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.14px;
+
+}
+.contactButton{
+    color: #24303e;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.11px;
+    background: #fbd600;
+    border-radius: 28px;
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    border: none;
+    width: 140px;
+    height: 56px;
+    position: absolute;
+    left: 94px;
+    margin-top: 10px;
+}
+.icon{
+    border: none;
+    background: none;
+    display: block;
+    position: absolute;
+    top: 33px;
+    left: 323px;
+    z-index: 1;
+}
+
+h1{
+    color: #ffffff;
+    width: 375px;
+    font-size: 40px;
+    line-height: 49.32px;
+    letter-spacing: 6.25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    position: absolute;
+    top: 50px;
+}
+.arrowDown{
+    margin-left: 173px;
+    position: absolute;
+    top: 290px;
+}
+.topPics{
+    width: 375px;
+    height: 312px;
+}
+.pic1{
+    background: url(./images/mobile/image-transform.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pic2{
+    background: url(./images/mobile/image-stand-out.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.information{
+    width: 375px;
+    height: 327px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+}
+.information h2{
+    width: 300px;
+    font-size: 32px;
+    color: #24303e;
+    line-height: 39px;
+    letter-spacing: -0.23px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.information p{
+    font-size: 18px;
+    font-weight: 600px;
+    width: 327px;
+    line-height: 30px;
+    letter-spacing: -.13px;
+    color: #808397;
+    margin-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.learnButton{
+    line-height: 0px;
+    border: none;
+    padding-bottom: 10px;
+    font-family: "Fraunces" , sans-serif;
+    font-weight: 900px;
+    color: #24303e;
+    font-size: 15px;
+    letter-spacing: 1;
+    border-radius: 28px;
+}
+.des1 button{
+    background: rgb(250, 212, 0, 0.25);
+}
+.des2 button{
+    background: rgb(254, 119, 102, .25);
+}
+.des1 button:hover{
+    background: #fad400;
+}
+.des2 button:hover{
+    background: #fe7766;
+}
+.cherry{
+    background: url(images/mobile/image-graphic-design.jpg);
+    background-size: cover;
+    margin-top: 60px;
+}
+.orange{
+    background: url(images/mobile/image-photography.jpg);
+    background-size: cover;
+}
+.fruitSection{
+    width: 375px;
+    height: 600px;
+    text-align: center;
+}
+.fruitSection h3{
+    font-weight: 900px;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -.2px;
+    color: #24554a;
+    padding-top: 400px;
+    margin-top: 0;
+}
+.fruitSection p{
+    font-weight: 600px;
+    font-size: 16px;
+    letter-spacing: -.11px;
+    line-height: 27px;
+    color: #24554a;
+    width: 327px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testHeader{
+    margin-top: 70px;
+    color: #A7AAAD;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.aTest{
+    width: 327px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.headshot{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin-top: 64px;
+}
+.opinion{
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -.13px;
+    color: #5b636d;
+    margin-top: 32px;
+}
+.name{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -.13px;
+    color: #24303e;
+    margin-top: 32px;
+}
+.position{
+    font-size: 14px;
+    color: #a7aaad;
+    line-height: 25px;
+    letter-spacing: -.1px;
+}
+.bttmImg{
+    display: grid;
+    grid-template-columns: auto auto ;
+    width: 375px;
+    margin-top: 86px;
+}
+.milk{
+    background: url(images/mobile/image-gallery-milkbottles.jpg);
+    background-size: cover;
+    width: 188px;
+    height: 188px;
+}
+.oranges{
+    background: url(images/mobile/image-gallery-orange.jpg);
+    background-size: cover;
+    width: 188px;
+    height: 188px;
+}
+.cone{
+    background: url(images/mobile/image-gallery-cone.jpg);
+    background-size: cover;
+    width: 188px;
+    height: 188px;
+}
+.cubes{
+    background: url(images/mobile/image-gallery-sugar-cubes.jpg);
+    background-size: cover;
+    width: 188px;
+    height: 188px;
+}
+footer{
+    height: 350px;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #90d4c6;
+    text-align: center;
+   
+}
+.footerLogo{
+    fill: #2c7566;
+    margin-top: 64px;
+    transform: scale(1.4);
+}
+.footerLinks{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerLinksName{
+    text-decoration: none;
+    color: #458d7e;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -.13px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.footerLinksName:hover{
+    color: white;
+}
+.smLogo{
+    display: flex;
+    justify-content: space-around;
+    width: 164px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 88px;
+}
+
+
+@media (min-width: 868px){
+    html, body{
+        width: 100%;
+    }
+    .topSection{
+        width: 100%;
+        height: 800px;
+        background: url("./images/desktop/image-header.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    .navBar{
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        padding-left: 40px;
+    }
+    
+    .links{
+        display: flex !important; 
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        height: 56px;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background: none;
+        border: none;
+    }
+    .links:before, .links:after{
+        border:none;
+    }
+    .headerLinks{
+        color: #ffffff;
+    }
+    .flexContain{
+        width: 467px;
+        height: 56px;
+        flex-direction: row;
+        padding-top: 0;
+    }
+    .contactButton{
+        background: #ffffff;
+        position: relative;
+        margin-top: 0;
+        padding-top: 0;
+        left: 0;
+        margin-right: 48px;
+    }
+    .contactButton:hover{
+        color: white;
+        background: rgb(225, 225, 255, .25);
+    }
+    .hamBurger{
+        display: none;
+    }
+    h1{
+        width: 50%;
+        font-size: 56px;
+        line-height: 69.05px;
+        letter-spacing: 8.75px;
+        margin-top: 130px;
+        position: relative;
+        top: 0;
+    }
+    .arrowDown{
+        position: relative;
+        top: 0;
+        margin-top: 30px;
+        margin-left: 48.5%;
+        margin-right: 50%;
+    }
+    .transform-stand{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 600px 600px;
+    }
+    .topPics{
+        height: auto;
+        width: auto;
+    }
+    .des1{
+        width: 100%;
+        grid-area: 1;
+    }
+    .information{
+        width: 100%;
+        margin-top: 158px;
+    }
+    .information h2{
+        width: 420px;
+        padding-right: 20px;
+        font-size: 40px;
+        line-height: 49.32px;
+        letter-spacing: -0.29px;
+        text-align: left;
+    }
+    .information p{
+        font-size: 18px;
+        width: 450px;
+        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+    .learnButton{
+        margin-right: 330px;
+    }
+    .cherry{
+        background: url(images/desktop/image-graphic-design.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-top: 0;
+    }
+    .orange{
+        background: url(images/desktop/image-photography.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .fruitGrid{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 600px ;
+    }
+    .fruitSection{
+        height: 600px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    .testies{
+        display: flex;
+        justify-content: space-between;
+    }
+    .testHeader{
+        margin-top: 160px;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 5px;
+    }
+    .aTest{
+        width: 350px;
+    }
+    .bttmImg{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 447px;
+        width: 100%;
+        margin-top: 160px;
+    }
+    .milk{
+        background: url(images/desktop/image-gallery-milkbottles.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .oranges{
+        background: url(images/desktop/image-gallery-orange.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .cone{
+        background: url(images/desktop/image-gallery-cone.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .cubes{
+        background: url(images/desktop/image-gallery-sugarcubes.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    footer{
+        height: 350px;
+        width: 100%;
+       
+    }
+    
+    .footerLinks{
+        display: flex;
+        width: 350px;
+        margin-top: 40px;
+        justify-content: space-between;
+        text-align: center;
+        text-align: center;
+    }
+   
+    
+}
